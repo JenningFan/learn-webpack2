@@ -1,0 +1,26 @@
+{
+  "name": "004",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --env production",
+    "start": "webpack-dev-server --env development",
+    "lintjs": "eslint app/ webpack.*.js --cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "eslint": "^4.1.1",
+    "eslint-loader": "^1.8.0",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.5.0"
+  }
+}
